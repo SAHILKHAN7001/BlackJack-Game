@@ -68,6 +68,8 @@ function NewCard() {
  }
 
  function Reset() {
+  allcards = [];
+sum = 0;
     cards.textContent="Cards: " ;
     sum2.textContent="Sum: " ;
     message2.textContent="Want to Play a Round ?";
